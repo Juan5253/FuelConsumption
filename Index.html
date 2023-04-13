@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "src/Main.js"></script>
+    <title>Fuel Consumption</title>
+</head>
+<body>
+    <header class="main__header">
+        <h1>Fuel Consumption</h1>
+    </header>
+    <main class="main__content">
+        <section id="content_form">
+            <h3>Calculate Kilometers per Liter!</h3>
+            <form action="">
+                <label for="inputLiters">Liters consumed</label>
+                <input type="number" placeholder=" 0 Liters" id="inputLiters"/>
+                <br>
+                <label for="inputKms">Kilometers traveled</label>
+                <input type="number" placeholder=" 0 km "id="inputKms"/>
+                <br>
+            </form>
+            <br>
+            <button id="main__Button" type="button" onclick="onClickButtonCalculateKmPerLiter()">Calculate Km/l</button>
+            <br>
+            <br>
+            <span>*********************************</span>
+            <br>
+            <p id="kmsPerLiterResult"></p>
+        </section>
+    </main>
+    <footer class="main__footer ">
+    </footer>  
+</body>
+</html>
